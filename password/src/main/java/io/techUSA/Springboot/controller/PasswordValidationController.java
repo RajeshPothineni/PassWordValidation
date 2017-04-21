@@ -19,7 +19,7 @@ public class PasswordValidationController {
 	PasswordValidatorService pwdValidatorService;
 	
 	public static int passwordcount ;
-    @RequestMapping(value="/validate/credentials/",method=RequestMethod.POST)
+    @RequestMapping(value="/validate/credentials",method=RequestMethod.POST)
 	public Set<String> validateUserNameAndPassword(@RequestBody UserInfo userInfo){
     	Set<String> errors;
         	
@@ -34,10 +34,5 @@ public class PasswordValidationController {
 		return errors;
 		
 	}
-    
-   
-    
- 
-    	
    
 }
