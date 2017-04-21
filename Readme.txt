@@ -17,5 +17,8 @@ Befor ruuning from the postman in the header section set the Content-Type to app
 "password":"abc1215"
 }
 
+URL:http://localhost:8080/password-0.0.1-SNAPSHOT/passwordvalidator/validate/credentials
+
+We can overRide the context path in configuring server.context-path in application.propperties in resources folder
 
 
